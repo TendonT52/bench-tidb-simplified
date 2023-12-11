@@ -13,7 +13,7 @@ The `config.yml` file is used to configure the database connection. Here's an ex
 ```yml
 database:
   addresses:
-    - "private-tidb.clusters.tidb-cloud.com:4000
+    - "private-tidb.clusters.tidb-cloud.com:4000"
   username: "username"
   password: "password"
   dbName: "test"
@@ -77,4 +77,3 @@ the result will look like this:
 min, avg, max is a end to end latency of transfer (not database latency).
 Total transfer is a number of transfer that has been done.
 Transfer per second is a number of transfer that has been done per second.
-# bench-tidb-simplified
