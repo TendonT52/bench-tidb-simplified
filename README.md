@@ -77,4 +77,3 @@ the result will look like this:
 min, avg, max is a end to end latency of transfer (not database latency).
 Total transfer is a number of transfer that has been done.
 Transfer per second is a number of transfer that has been done per second.
-# bench-tidb-simplified
