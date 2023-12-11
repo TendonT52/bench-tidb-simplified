@@ -13,7 +13,7 @@ The `config.yml` file is used to configure the database connection. Here's an ex
 ```yml
 database:
   addresses:
-    - "private-tidb.clusters.tidb-cloud.com:4000
+    - "private-tidb.clusters.tidb-cloud.com:4000"
   username: "username"
   password: "password"
   dbName: "test"
