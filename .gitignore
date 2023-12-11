@@ -1,0 +1,35 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Exclude all .tfvars files for security considerations, which may contain sensitive data,
+# Change this rule carefully should you have the need for it
+*.tfvars
+
+# Ignore override files as they're normally used for local settings
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore files created by terraform init
+.terraform.lock.hcl
+
+
+/terraform/secret.tfvars
+
+ca.pem
+*.sh
+*.yaml
+*.yml
+*.pprof
