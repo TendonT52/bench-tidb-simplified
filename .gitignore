@@ -30,6 +30,5 @@ terraform.rc
 
 ca.pem
 *.sh
-*.yaml
 *.yml
 *.pprof

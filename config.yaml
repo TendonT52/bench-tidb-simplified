@@ -1,0 +1,11 @@
+database:
+  addresses:
+    - "private-tidb.clusters.tidb-cloud.com:4000"
+  username: "username"
+  password: "password"
+  dbName: "test"
+  maxOpenConns: 1000
+  maxIdleConns: 500
+  connMaxIdleTime: 15m
+  connMaxLifetime: 30m
+  tls: false
